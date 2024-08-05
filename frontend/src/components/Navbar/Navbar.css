@@ -96,6 +96,20 @@
         font-size: 15px;
     }
 }
+
+.navbar-profile{
+    position:  relative;
+
+
+}
+
+
+.nav-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
 @media (max-width:750px) {
     .navbar-menu{
         display: none;
